@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.qt_date {
+    float: right;
+    display: block;
+    padding: 15px;
+}
+.card__container {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.card_one {
+    margin-right: 100px;
+    border-top: 2px solid green;
+}
+.qt_date {
+    margin-left: 20px;
+    text-align: left;
+}
+.tb1 {
+    padding: 30px;
+    border: 2px solid green;
+    text-align: left;
+}
+.tb3 {
+    border: 2px solid green !important;
+}
+.thank {
+    float: left;
+    align-items: left;
+    text-align: left;
+}
+input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
